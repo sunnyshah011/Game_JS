@@ -1,0 +1,27 @@
+// function Animation() {
+//   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+//   //   ctx.fillRect(50, 50, 100, 100);
+//   //   ctx.drawImage(image,sx,sy,sw,sh,dx,dy,dw,dh)
+
+//   ctx.drawImage(
+//     playerImage,
+//     frameX * spriteWidth,  // cordinate where image start to draw x //cutout image
+//     frameY * spriteHeight, // cordinate where image start to draw y //cutout image
+//     spriteWidth,  // fill image as per this value in canvas strech  //cutout image
+//     spriteHeight, // fill image as per this value in canvas         //cutout image
+//     0,
+//     0,
+//     spriteWidth,
+//     spriteHeight,
+//   );
+
+//   if (gameFrame % staggerFrames == 0) {
+//     if (frameX < 6) frameX++;
+//     else frameX = 0;
+//   }
+
+//   gameFrame++;
+//   requestAnimationFrame(Animation);
+// }
+
+// Animation();
